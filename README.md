@@ -18,7 +18,7 @@ Elizabeth C. Johnston (1), Frances V. Davenport (1), Lijing Wang (2), Jef K. Cae
 
 All analyzed data is publically available. We thank NASA for access to the landslide inventory, the PRISM Climate Group for access to the PRISM daily precipitation product, the US Census for access to land use data, and Jonathan de Ferranti for providing access to global Digital Elevation Models with artifacts and SRTM voids removed. 
 
-- The Cooperative Open Online Landslide Repository (COOLR; Juang et al., 2019; Kirschbaum et al., 2010, 2015) is available from NASA (https://landslides.nasa.gov)
+- The Cooperative Open Online Landslide Repository is available from NASA (https://landslides.nasa.gov)
 - The 4 km gridded daily precipitation observations from the Parameter elevation Regression on Independent Slopes Model (PRISM) are available the PRISM Climate Group (http://www.prism.oregonstate.edu).  
 - The TIGER/Line shapefile of land use designations is available from the US Census (http://data.census.gov).
 - Digital Elevation Model – with SRTM voids filled using accurate topographic mapping – is available from Jonathan de Ferranti (http://www.viewfinderpanoramas.org/dem3.html).
