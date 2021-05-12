@@ -23,6 +23,7 @@ Elizabeth C. Johnston (1), Frances V. Davenport (1), Lijing Wang (2), Jef K. Cae
 - figure_scripts: code to make figures 
 
 **data**
+
 Raw datasets are available from the following locations: 
 
 - PRISM daily 4km precipitation: available from the PRISM Climate Group, Oregon State University (http://www.prism.oregonstate.edu)
