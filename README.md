@@ -32,14 +32,14 @@ Raw datasets are available from the following locations:
 - The Cooperative Open Online Landslide Repository is available from NASA (https://landslides.nasa.gov)
 - The TIGER/Line shapefile of land use designations is available from the US Census (http://data.census.gov).
 
-Relevant code for processing raw data: 
+Relevant scripts for processing raw data: 
 
-- rasterize-landslides:
+- rasterize-inventory:
 - calc-cumulative-precip: calculates up to thirty-day cumulative precipitation intensity from raw PRISM data
 - calc-antecedent-precip: calculates up to thirty cumulative antecedent precipitation intensity preceding observed landslides in the Pacific Coast states
 - calc-slope: calculates 4km slope from a 3 arc second DEM 
 - calc-land-use-buffer: 
-- create-dataframe
+- create-dataframe: 
 
 ### data
 
@@ -49,7 +49,17 @@ Post-processed data included in this repository:
 - pacific_coast_land_use: land use designation into urbanized (>50,000 people), urban cluster (2,500 – 50,000 people), and rural (<2,500 people) classifications for the US Pacific Coast region
 - pacific_coast_slope: 
 - antecedent_precipitation: daily to monthly precipitation intensity preceding observed landslides in the US Pacific Coast region
-- 
+
+### analysis_scripts
+
+Scripts for panel regression models
+
+### results
+
+### figure_scripts
+
+
+
 
 
 
