@@ -1,5 +1,5 @@
 # GRL2021
-### Supporting code for manuscript submitted to GRL: **"Quantifying the influence of precipitation intensity on landslide hazard in urbanized and non-urbanized areas"**
+## Supporting code for manuscript submitted to GRL: **"Quantifying the influence of precipitation intensity on landslide hazard in urbanized and non-urbanized areas"**
 
 Elizabeth C. Johnston (1), Frances V. Davenport (1), Lijing Wang (2), Jef K. Caers (2,3), Suresh Muthukrishnan (4,5), Marshall Burke (1,6,7) and Noah S. Diffenbaugh (1,8)
 
@@ -15,7 +15,7 @@ Elizabeth C. Johnston (1), Frances V. Davenport (1), Lijing Wang (2), Jef K. Cae
 
 **Corresponding author: Elizabeth C. Johnston (ecj@stanford.edu)**
 
-**Organization of Repository**
+### Organization of Repository
  
 - data_processing_scripts: code that processes raw data
 - data: post-processed input data for analysis_scripts
@@ -23,7 +23,7 @@ Elizabeth C. Johnston (1), Frances V. Davenport (1), Lijing Wang (2), Jef K. Cae
 - results: output from analysis_scripts; input for figure_scripts
 - figure_scripts: code to make figures 
 
-**data_processing_scripts**
+### data_processing_scripts
 
 Raw datasets are available from the following locations: 
 
@@ -41,7 +41,7 @@ Relevant code for processing raw data:
 - calc-land-use-buffer: 
 - create-dataframe
 
-**data**
+### data
 
 Post-processed data included in this repository: 
 
