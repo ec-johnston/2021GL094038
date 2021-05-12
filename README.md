@@ -22,7 +22,7 @@ Elizabeth C. Johnston (1), Frances V. Davenport (1), Lijing Wang (2), Jef K. Cae
 - results: output from analysis_scripts; input for figure_scripts
 - figure_scripts: code to make figures 
 
-**data**
+**processed_data**
 
 Raw datasets are available from the following locations: 
 
