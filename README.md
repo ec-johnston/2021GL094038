@@ -23,5 +23,13 @@ The data we analyzed is publically available. We thank NASA for access to the la
 - The TIGER/Line shapefile of land use designations is available from the US Census (http://data.census.gov).
 - Digital Elevation Model – with SRTM voids filled using accurate topographic mapping – is available from Jonathan de Ferranti (http://www.viewfinderpanoramas.org/dem3.html).
 
+**Organization of Repository**
+ 
+- data
+- analysis_scripts: code that analyzes data 
+- processed_data: output from analysis_scripts; input for figure_scripts
+- figure_scripts: code to make figures 
+
+(Raw data not included due to size considerations. All data is publically available via links above)
 
 
