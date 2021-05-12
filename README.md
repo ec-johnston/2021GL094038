@@ -15,21 +15,20 @@ Elizabeth C. Johnston (1), Frances V. Davenport (1), Lijing Wang (2), Jef K. Cae
 
 **Corresponding author: Elizabeth C. Johnston (ecj@stanford.edu)**
 
-
-The data we analyzed is publically available. We thank NASA for access to the landslide inventory, the PRISM Climate Group for access to the PRISM daily precipitation product, the US Census for access to land use data, and Jonathan de Ferranti for providing access to global Digital Elevation Models with artifacts and SRTM voids removed. 
-
-- The Cooperative Open Online Landslide Repository is available from NASA (https://landslides.nasa.gov)
-- The 4 km gridded daily precipitation observations from the Parameter elevation Regression on Independent Slopes Model (PRISM) are available the PRISM Climate Group (http://www.prism.oregonstate.edu).  
-- The TIGER/Line shapefile of land use designations is available from the US Census (http://data.census.gov).
-- Digital Elevation Model – with SRTM voids filled using accurate topographic mapping – is available from Jonathan de Ferranti (http://www.viewfinderpanoramas.org/dem3.html).
-
 **Organization of Repository**
  
-- data
-- analysis_scripts: code that analyzes data 
-- processed_data: output from analysis_scripts; input for figure_scripts
+- processed_data: input data for analysis_scripts
+- analysis_scripts: code that analyzes processed_data 
+- results: output from analysis_scripts; input for figure_scripts
 - figure_scripts: code to make figures 
 
-(Raw data not included due to size considerations. All data is publically available via links above)
+**data**
+Raw datasets are available from the following locations: 
+
+- PRISM daily 4km precipitation: available from the PRISM Climate Group, Oregon State University (http://www.prism.oregonstate.edu)
+- Digital Elevation Model – with SRTM voids filled using accurate topographic mapping – is available from Jonathan de Ferranti (http://www.viewfinderpanoramas.org/dem3.html)
+- The Cooperative Open Online Landslide Repository is available from NASA (https://landslides.nasa.gov)
+- The TIGER/Line shapefile of land use designations is available from the US Census (http://data.census.gov).
+
 
 
