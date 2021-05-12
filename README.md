@@ -17,12 +17,13 @@ Elizabeth C. Johnston (1), Frances V. Davenport (1), Lijing Wang (2), Jef K. Cae
 
 **Organization of Repository**
  
-- processed_data: input data for analysis_scripts
-- analysis_scripts: code that analyzes processed_data 
+- data_processing_scripts: code that processes raw data
+- data: post-processed input data for analysis_scripts
+- analysis_scripts: code that analyzes data 
 - results: output from analysis_scripts; input for figure_scripts
 - figure_scripts: code to make figures 
 
-**processed_data**
+**data_processing_scripts**
 
 Raw datasets are available from the following locations: 
 
@@ -31,8 +32,23 @@ Raw datasets are available from the following locations:
 - The Cooperative Open Online Landslide Repository is available from NASA (https://landslides.nasa.gov)
 - The TIGER/Line shapefile of land use designations is available from the US Census (http://data.census.gov).
 
-Data included in this repository: 
+Relevant code for processing raw data: 
 
+- rasterize-landslides:
+- calc-cumulative-precip: calculates up to thirty-day cumulative precipitation intensity from raw PRISM data
+- calc-antecedent-precip: calculates up to thirty cumulative antecedent precipitation intensity preceding observed landslides in the Pacific Coast states
+- calc-slope: calculates 4km slope from a 3 arc second DEM 
+- calc-land-use-buffer: 
+- create-dataframe
+
+**data**
+
+Post-processed data included in this repository: 
+
+- pacific_coast_PRISM_2009_2017: daily precipitation data from PRISM for the US pacific Coast region
+- pacific_coast_land_use: land use designation into urbanized (>50,000 people), urban cluster (2,500 – 50,000 people), and rural (<2,500 people) classifications for the US Pacific Coast region
+- pacific_coast_slope: 
+- antecedent_precipitation: daily to monthly precipitation intensity preceding observed landslides in the US Pacific Coast region
 - 
 
 
