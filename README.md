@@ -31,5 +31,9 @@ Raw datasets are available from the following locations:
 - The Cooperative Open Online Landslide Repository is available from NASA (https://landslides.nasa.gov)
 - The TIGER/Line shapefile of land use designations is available from the US Census (http://data.census.gov).
 
+Data included in this repository: 
+
+- 
+
 
 
