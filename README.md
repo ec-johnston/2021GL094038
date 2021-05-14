@@ -15,6 +15,13 @@ Elizabeth C. Johnston (1), Frances V. Davenport (1), Lijing Wang (2), Jef K. Cae
 
 **Corresponding author: Elizabeth C. Johnston (ecj@stanford.edu)**
 
+Raw datasets are available from the following locations: 
+
+- PRISM daily 4km precipitation: available from the PRISM Climate Group, Oregon State University (http://www.prism.oregonstate.edu)
+- Digital Elevation Model – with SRTM voids filled using accurate topographic mapping – is available from Jonathan de Ferranti (http://www.viewfinderpanoramas.org/dem3.html)
+- The Cooperative Open Online Landslide Repository is available from NASA (https://landslides.nasa.gov)
+- The TIGER/Line shapefile of land use designations is available from the US Census (http://data.census.gov)
+
 ### Organization of Repository
  
 - data_processing_scripts: code for processing raw data
@@ -24,13 +31,6 @@ Elizabeth C. Johnston (1), Frances V. Davenport (1), Lijing Wang (2), Jef K. Cae
 - figure_scripts: code to make figures 
 
 ### data_processing_scripts
-
-Raw datasets are available from the following locations: 
-
-- PRISM daily 4km precipitation: available from the PRISM Climate Group, Oregon State University (http://www.prism.oregonstate.edu)
-- Digital Elevation Model – with SRTM voids filled using accurate topographic mapping – is available from Jonathan de Ferranti (http://www.viewfinderpanoramas.org/dem3.html)
-- The Cooperative Open Online Landslide Repository is available from NASA (https://landslides.nasa.gov)
-- The TIGER/Line shapefile of land use designations is available from the US Census (http://data.census.gov)
 
 The following scripts process raw data:
 
@@ -56,7 +56,7 @@ Scripts for panel regression models:
 
 ## results
 
-Coefficients from panel regression models:
+Panel regression coefficients:
 
 - Pacific Coast region
 - San Francisco Bay Area
