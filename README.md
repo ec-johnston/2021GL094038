@@ -17,7 +17,7 @@ Elizabeth C. Johnston (1), Frances V. Davenport (1), Lijing Wang (2), Jef K. Cae
 
 ### Organization of Repository
  
-- data_processing_scripts: code that processes raw data
+- data_processing_scripts: code for processing raw data
 - data: post-processed input data for analysis_scripts
 - analysis_scripts: code that analyzes data 
 - results: output from analysis_scripts; input for figure_scripts
@@ -50,6 +50,8 @@ Post-processed data included in this repository (some processed data not include
 ### analysis_scripts
 
 Scripts for panel regression models
+
+- 
 
 ### results
 
