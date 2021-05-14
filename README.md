@@ -54,7 +54,7 @@ Scripts for panel regression models:
 - panel_regression_models.R:
 - bootstrap_models.R: 
 
-## results
+### results
 
 Panel regression coefficients:
 
