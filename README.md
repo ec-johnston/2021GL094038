@@ -30,7 +30,7 @@ Raw datasets are available from the following locations:
 - PRISM daily 4km precipitation: available from the PRISM Climate Group, Oregon State University (http://www.prism.oregonstate.edu)
 - Digital Elevation Model – with SRTM voids filled using accurate topographic mapping – is available from Jonathan de Ferranti (http://www.viewfinderpanoramas.org/dem3.html)
 - The Cooperative Open Online Landslide Repository is available from NASA (https://landslides.nasa.gov)
-- The TIGER/Line shapefile of land use designations is available from the US Census (http://data.census.gov).
+- The TIGER/Line shapefile of land use designations is available from the US Census (http://data.census.gov)
 
 The following scripts process raw data:
 
@@ -40,7 +40,7 @@ The following scripts process raw data:
 
 ### data
 
-Post-processed data included in this repository (some processed data not included due to size limitations): 
+Post-processed data included in this repository (some processed data not included due to size): 
 
 - pacific_coast_PRISM_2009_2017: 4 km daily precipitation data from PRISM for the US Pacific Coast region
 - pacific_coast_land_use: land use designation into urbanized (>50,000 people), urban cluster (2,500 – 50,000 people), and rural (<2,500 people) classifications for the US Pacific Coast region
@@ -51,7 +51,8 @@ Post-processed data included in this repository (some processed data not include
 
 Scripts for panel regression models
 
-- 
+- panel_regression_models:
+- bootstrap_models:
 
 ### results
 
