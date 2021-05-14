@@ -1,5 +1,5 @@
 # GRL2021
-## Supporting code for manuscript submitted to GRL: **"Quantifying the influence of precipitation intensity on landslide hazard in urbanized and non-urbanized areas"**
+## Supporting code for manuscript submitted to GRL: **"Quantifying the influence of precipitation intensity on landslide hazard in urbanized and non-urbanized areas"
 
 Elizabeth C. Johnston (1), Frances V. Davenport (1), Lijing Wang (2), Jef K. Caers (2,3), Suresh Muthukrishnan (4,5), Marshall Burke (1,6,7) and Noah S. Diffenbaugh (1,8)
 
@@ -42,9 +42,9 @@ The following scripts process raw data:
 
 Post-processed data included in this repository (some processed data not included due to size limitations): 
 
-- pacific_coast_PRISM_2009_2017: daily precipitation data from PRISM for the US pacific Coast region
+- pacific_coast_PRISM_2009_2017: 4 km daily precipitation data from PRISM for the US Pacific Coast region
 - pacific_coast_land_use: land use designation into urbanized (>50,000 people), urban cluster (2,500 – 50,000 people), and rural (<2,500 people) classifications for the US Pacific Coast region
-- pacific_coast_slope: 
+- pacific_coast_slope: 4km slope (in radians)
 - antecedent_precipitation: daily to monthly precipitation intensity preceding observed landslides in the US Pacific Coast region
 
 ### analysis_scripts
