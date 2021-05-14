@@ -40,10 +40,10 @@ The following scripts process raw data:
 
 ### data
 
-Post-processed data included in this repository (some processed data not included due to size): 
+Post-processed data for the US Pacific Coast region (some processed data not included due to size): 
 
-- pacific_coast_PRISM_2009_2017: 4 km daily precipitation data from PRISM for the US Pacific Coast region
-- pacific_coast_land_use: land use designation into urbanized (>50,000 people), urban cluster (2,500 – 50,000 people), and rural (<2,500 people) classifications for the US Pacific Coast region
+- pacific_coast_PRISM_2009_2017: 4 km daily precipitation data from PRISM 
+- pacific_coast_land_use: land use designation into urbanized (>50,000 people), urban cluster (2,500 – 50,000 people), and rural (<2,500 people) classifications 
 - pacific_coast_slope: 4km slope (in radians)
 - antecedent_precipitation: daily to monthly precipitation intensity preceding observed landslides in the US Pacific Coast region
 
@@ -52,9 +52,17 @@ Post-processed data included in this repository (some processed data not include
 Scripts for panel regression models:
 
 - panel_regression_models:
-- bootstrap_models:
+- bootstrap_models: 
 
+## results
 
+Coefficients from panel regression models:
+
+- Pacific Coast region
+- San Francisco Bay Area
+- California
+- Oregon
+- Washington
 
 
 
