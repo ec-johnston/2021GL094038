@@ -34,25 +34,25 @@ Raw datasets are available from the following locations:
 
 The following scripts process raw data:
 
-- calc-cumulative-precip: calculates up to thirty-day cumulative precipitation intensity from PRISM data
-- calc-slope: calculates 4km slope from a 3 arc second DEM 
-- buffer-rural: subdivides rural areas based on proximity to urbanized areas and urban clusters
+- calc-cumulative-precip.R: calculates up to thirty-day cumulative precipitation intensity from PRISM data
+- calc-slope.R: calculates 4km slope from a 3 arc second DEM 
+- buffer-rural.R: subdivides rural areas based on proximity to urbanized areas and urban clusters
 
 ### data
 
-Post-processed data for the US Pacific Coast region (some processed data not included due to size): 
+Post-processed data for the US Pacific Coast region at 4 km spatial resolution (some processed data not included due to size): 
 
-- pacific_coast_PRISM_2009_2017: 4 km daily precipitation data from PRISM 
-- pacific_coast_land_use: land use designation into urbanized (>50,000 people), urban cluster (2,500 – 50,000 people), and rural (<2,500 people) classifications 
-- pacific_coast_slope: 4km slope (in radians)
-- antecedent_precipitation: daily to monthly precipitation intensity preceding observed landslides in the US Pacific Coast region
+- daily_precip_2010_2017.Rds: daily precipitation data from PRISM 
+- land_use.Rds: land use designation into urbanized (>50,000 people), urban cluster (2,500 – 50,000 people), and rural (<2,500 people)  
+- slope.Rds: slope (in radians)
+- landslides_precip.Rds: daily to monthly antecedent precipitation intensity preceding observed landslides
 
 ### analysis_scripts
 
 Scripts for panel regression models:
 
-- panel_regression_models:
-- bootstrap_models: 
+- panel_regression_models.R:
+- bootstrap_models.R: 
 
 ## results
 
