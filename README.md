@@ -39,8 +39,8 @@ The following scripts process raw data:
 - buffer-rural.R: subdivides rural areas based on proximity to urbanized areas and urban clusters
 
 Study area:
-- pacific_coast_df.rds: dataframe of the US Pacific Coast region
-- bay_area_df.rds: dataframe of the San Francisco Bay Area
+- pacific_coast_df.rds: dataframe of lat (x)/ long (y) coordinates within the US Pacific Coast region at 4 km resolution
+- bay_area_df.rds: dataframe of lat (x)/ long (y) coordinates within the San Francisco Bay Area at 4 km resolution
 
 ## data
 
