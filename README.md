@@ -42,10 +42,10 @@ The following scripts process raw data:
 
 Post-processed data for the US Pacific Coast region at 4 km spatial resolution (some processed data not included due to size): 
 
-- daily_precip_2010_2017.Rds: daily precipitation data from PRISM 
-- land_use.Rds: land use designation into urbanized (>50,000 people), urban cluster (2,500 – 50,000 people), and rural (<2,500 people)  
-- slope.Rds: slope (in radians)
-- landslides_precip.Rds: daily to monthly antecedent precipitation intensity preceding observed landslides
+- daily_precip_2010_2017.rds: daily precipitation data from PRISM 
+- land_use.rds: land use designation into urbanized (>50,000 people), urban cluster (2,500 – 50,000 people), and rural (<2,500 people)  
+- slope.rds: slope (in radians)
+- landslides_precip.rds: daily to monthly antecedent precipitation intensity preceding observed landslides
 
 ### analysis_scripts
 
@@ -58,7 +58,15 @@ Scripts for panel regression models:
 
 Bootstrapped panel regression coefficients
 
-- Pacific Coast region
+1. fit with data for the Pacific Coast region:
+- pacific_coast_daily_eq1.rds: results of Eq. 1 using daily precipitation intensity 
+- pacific_coast_ten_day_eq1.rds: results of Eq. 1 using ten-day antecedent precipitation intensity 
+- pacific_coast_monthly_eq1.rds: results of Eq. 1 using monthly antecedent precipitation intensity
+- pacific_coast_daily_eq2.rds: results of Eq. 2 (which considers an interaction with mean precipitation intensity) using daily precipitation intensity
+- pacific_coast_daily_eq3.rds: results of Eq. 2 (which considers an interaction with mean precipitation intensity) using daily precipitation intensity
+
+2. fit with data for the San Francisco Bay Area:
+
 - San Francisco Bay Area
 - California
 - Oregon
