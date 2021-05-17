@@ -58,6 +58,7 @@ Scripts for panel regression models:
 Bootstrapped coefficients from panel regression models
 
 ### pacific_coast
+fit with data for the US Pacific Coast region (i.e., California, Oregon, Washington)
 - pacific_coast_daily_eq1.rds: results of Eq. 1 using daily precipitation intensity 
 - pacific_coast_ten_day_eq1.rds: results of Eq. 1 using ten-day antecedent precipitation intensity 
 - pacific_coast_monthly_eq1.rds: results of Eq. 1 using monthly antecedent precipitation intensity
@@ -68,7 +69,8 @@ Bootstrapped coefficients from panel regression models
 - pacific_coast_daily_eq3.rds: results of Eq. 3 (which considers an interaction with mean slope) using daily precipitation intensity
 - pacific_coast_daily_eq4.rds: results of Eq. 4 (which considers interactions with both mean precipitation and mean slope) using daily precipitation intensity
 
-2. fit with data for the San Francisco Bay Area:
+### bay_area
+fit with data for coastal counties within the San Francisco Bay Area (i.e., Marin, San Francisco, Santa Clara, and Santa Cruz counties)
 - bay_area_daily_eq1.rds: results of Eq. 1 using daily precipitation intensity 
 - bay_area_ten_day_eq1.rds: results of Eq. 1 using ten-day antecedent precipitation intensity 
 - bay_area_monthly_eq1.rds: results of Eq. 1 using monthly antecedent precipitation intensity
@@ -76,7 +78,8 @@ Bootstrapped coefficients from panel regression models
 - bay_area_daily_eq3.rds: results of Eq. 3 (which considers an interaction with mean slope) using daily precipitation intensity
 - bay_area_daily_eq4.rds: results of Eq. 4 (which considers interactions with both mean precipitation and mean slope) using daily precipitation intensity
 
-3. fit with data for the state of California: 
+### california
+fit with data for the state of California
 - california_daily_eq1.rds: results of Eq. 1 using daily precipitation intensity 
 - california_ten_day_eq1.rds: results of Eq. 1 using ten-day antecedent precipitation intensity 
 - california_monthly_eq1.rds: results of Eq. 1 using monthly antecedent precipitation intensity
@@ -84,12 +87,14 @@ Bootstrapped coefficients from panel regression models
 - california_daily_eq3.rds: results of Eq. 3 (which considers an interaction with mean slope) using daily precipitation intensity
 - california_daily_eq4.rds: results of Eq. 4 (which considers interactions with both mean precipitation and mean slope) using daily precipitation intensity
 
-4. fit with data for the state of Oregon: 
+### oregon
+fit with data for the state of Oregon
 - oregon_daily_eq1.rds: results of Eq. 1 using daily precipitation intensity 
 - oregon_ten_day_eq1.rds: results of Eq. 1 using ten-day antecedent precipitation intensity 
 - oregon_monthly_eq1.rds: results of Eq. 1 using monthly antecedent precipitation intensity
 
-5. fit with data for the state of Washington
+### washington
+fit with data for the state of Washington
 - washington_daily_eq1.rds: results of Eq. 1 using daily precipitation intensity 
 - washington_ten_day_eq1.rds: results of Eq. 1 using ten-day antecedent precipitation intensity 
 - washington_monthly_eq1.rds: results of Eq. 1 using monthly antecedent precipitation intensity
