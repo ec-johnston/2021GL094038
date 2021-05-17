@@ -25,10 +25,9 @@ Raw datasets are available from the following locations:
 ### Organization of Repository
  
 - data_processing_scripts: code for processing raw data
-- data: post-processed input data 
-- analysis_scripts: code that analyzes data 
+- data: post-processed data
+- analysis_scripts: code that analyzes data
 - results: output from analysis_scripts
-- figure_scripts: code to make figures 
 
 ### data_processing_scripts
 
