@@ -38,7 +38,7 @@ The following scripts process raw data:
 - calc-slope.R: calculates 4km slope from a 3 arc second digital elevation model (DEM)
 - buffer-rural.R: subdivides rural areas based on proximity to urbanized areas and urban clusters
 
-Spatial extents
+Study area:
 - pacific_coast_df.rds: dataframe of the US Pacific Coast region
 - bay_area_df.rds: dataframe of the San Francisco Bay Area
 
