@@ -29,7 +29,7 @@ Raw datasets are available from the following locations:
 - analysis_scripts: code that analyzes data
 - results: output from analysis_scripts
 
-## data_processing_scripts
+## data_processing
 
 The following scripts process raw data:
 
@@ -37,6 +37,10 @@ The following scripts process raw data:
 - calc-cumulative-precip.R: calculates up to thirty-day cumulative precipitation intensity from PRISM data
 - calc-slope.R: calculates 4km slope from a 3 arc second digital elevation model (DEM)
 - buffer-rural.R: subdivides rural areas based on proximity to urbanized areas and urban clusters
+
+Spatial extent of this study area (the US Pacific Coast region; i.e., California, Oregon, Washington):
+- pacific_coast_df.rds: dataframe of the US Pacific Coast 
+- pacific_coast_raster.rds: raster of the US Pacific Coast
 
 ## data
 
@@ -59,7 +63,7 @@ Scripts for panel regression models:
 Bootstrapped coefficients from panel regression models
 
 ### pacific_coast
-fit with data for the US Pacific Coast region (i.e., California, Oregon, Washington)
+fit with data for the US Pacific Coast region 
 - pacific_coast_daily_eq1.rds: results of Eq. 1 using daily precipitation intensity 
 - pacific_coast_ten_day_eq1.rds: results of Eq. 1 using ten-day antecedent precipitation intensity 
 - pacific_coast_monthly_eq1.rds: results of Eq. 1 using monthly antecedent precipitation intensity
