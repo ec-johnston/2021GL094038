@@ -22,14 +22,14 @@ Raw datasets are available from the following locations:
 - The Cooperative Open Online Landslide Repository is available from NASA (https://landslides.nasa.gov)
 - The TIGER/Line shapefile of land use designations is available from the US Census (http://data.census.gov)
 
-### Organization of Repository
+## Organization of Repository
  
 - data_processing_scripts: code for processing raw data
 - data: post-processed data
 - analysis_scripts: code that analyzes data
 - results: output from analysis_scripts
 
-### data_processing_scripts
+## data_processing_scripts
 
 The following scripts process raw data:
 
@@ -37,7 +37,7 @@ The following scripts process raw data:
 - calc-slope.R: calculates 4km slope from a 3 arc second digital elevation model (DEM)
 - buffer-rural.R: subdivides rural areas based on proximity to urbanized areas and urban clusters
 
-### data
+## data
 
 Post-processed data for the US Pacific Coast region at 4 km spatial resolution (some processed data not included due to size): 
 
@@ -46,18 +46,18 @@ Post-processed data for the US Pacific Coast region at 4 km spatial resolution (
 - slope.rds: slope (in radians)
 - landslides_precip.rds: daily to monthly antecedent precipitation intensity preceding observed landslides
 
-### analysis_scripts
+## analysis_scripts
 
 Scripts for panel regression models:
 
 - panel_regression_models.R:
 - bootstrap_models.R: 
 
-### results
+## results
 
 Bootstrapped coefficients from panel regression models
 
-1. fit with data for the Pacific Coast region:
+### pacific_coast
 - pacific_coast_daily_eq1.rds: results of Eq. 1 using daily precipitation intensity 
 - pacific_coast_ten_day_eq1.rds: results of Eq. 1 using ten-day antecedent precipitation intensity 
 - pacific_coast_monthly_eq1.rds: results of Eq. 1 using monthly antecedent precipitation intensity
