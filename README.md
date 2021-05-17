@@ -56,7 +56,7 @@ Scripts for panel regression models:
 
 ### results
 
-Panel regression coefficients:
+Bootstrapped panel regression coefficients (for daily, ten-day, and monthly antecedent precipitation intensity):
 
 - Pacific Coast region
 - San Francisco Bay Area
