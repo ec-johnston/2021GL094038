@@ -39,7 +39,7 @@ The following scripts process raw data:
 
 ## data
 
-Post-processed data for the US Pacific Coast region at 4 km spatial resolution (some processed data not included due to size): 
+Processed data for the US Pacific Coast region at 4 km spatial resolution (some processed data not included due to size): 
 
 - daily_precip_2010_2017.rds: daily precipitation data from PRISM 
 - land_use.rds: land use designation into urbanized (>50,000 people), urban cluster (2,500 – 50,000 people), and rural (<2,500 people)  
