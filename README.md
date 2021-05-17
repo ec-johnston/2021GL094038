@@ -99,7 +99,7 @@ fit with data for the state of Washington
 - washington_ten_day_eq1.rds: results of Eq. 1 using ten-day antecedent precipitation intensity 
 - washington_monthly_eq1.rds: results of Eq. 1 using monthly antecedent precipitation intensity
 
-
+## R Packages Used
 
 
 
