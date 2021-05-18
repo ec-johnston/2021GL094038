@@ -46,6 +46,7 @@ Processed data for the US Pacific Coast region at 4 km spatial resolution (some 
 - land_use.rds: land use designation into urbanized (>50,000 people), urban cluster (2,500 – 50,000 people), and rural (<2,500 people)  
 - slope.rds: slope (in radians)
 - landslides_precip.rds: daily to monthly antecedent precipitation intensity preceding observed landslides
+- pacific_coast_df.rds: dataframe of x/y coordinates within the Pacific Coast region at 4km resolution 
 
 ## analysis_scripts
 
