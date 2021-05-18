@@ -29,7 +29,7 @@ Raw datasets are available from the following locations:
 - analysis_scripts: code that analyzes data
 - results: output from analysis_scripts
 
-## data_processing
+## data_processing_scripts
 
 The following scripts process raw data:
 
