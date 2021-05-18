@@ -13,7 +13,7 @@ Elizabeth C. Johnston (1), Frances V. Davenport (1), Lijing Wang (2), Jef K. Cae
 8. Woods Institute for the Environment, Stanford University, Stanford, CA 94305
 
 
-**Corresponding author: Elizabeth C. Johnston (ecj@stanford.edu)**
+Corresponding author: Elizabeth C. Johnston (ecj@stanford.edu)
 
 Raw datasets are available from the following locations: 
 
