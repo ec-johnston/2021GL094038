@@ -42,7 +42,7 @@ match_xy_to_raster <- function(df, raster) {
 calculate_cumulative_precip <- function(i) {
   ## INPUTS: 
   ## i = list of durations of cumuative antecedent precipitation 
-  ## RETURNS: dataframe for each duration (i) of cumulative antecedent precip
+  ## RETURNS: vector for each duration (i) of cumulative antecedent precip
   cumulative_precip <- t(apply(pacific_coast_2009_2017[, 1:3287], 1, 
                                               FUN = rollsum, k = i, align = "right", fill = NA))
   cumulative_precip <- as.data.frame(cumulative_precip)
