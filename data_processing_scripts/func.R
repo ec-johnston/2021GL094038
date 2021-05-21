@@ -6,7 +6,6 @@ library(tidyverse)
 
 ## FUNCTIONS
 
-
 ## EXTRACT PRECIP FROM RAW NetCDF DATA (e.g., from PRISM)
 extract_precip <- function(files, extent_raster, extent_df) {
   ## INPUTS:
@@ -21,7 +20,6 @@ extract_precip <- function(files, extent_raster, extent_df) {
   return(precip)
 }
 
-
 ## CENTER X/Y COORDINATES IN A DATAFRAME ON GRID CELLS IN RASTER
 match_xy_to_raster <- function(df, raster) {
   ## INPUTS:
@@ -34,8 +32,6 @@ match_xy_to_raster <- function(df, raster) {
   data_xy_match <- as.data.frame(data_xy_match)
   return(data_xy_match)
 }
-
-
 
 ## CALCULATE REGIONAL DAILY-SCALE CUMULATIVE ANTECEDENT PRECIPITATION
 ## (in this case for the Pacific Coast region between 2010 and 2017)
