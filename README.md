@@ -25,7 +25,7 @@ Raw datasets are available from the following locations:
 ## Organization of Repository
  
 - data_processing_scripts: code for processing raw data
-- data: post-processed data
+- reduced_data: post-processed data
 - analysis_scripts: code that analyzes data
 - results: output from analysis_scripts
 
@@ -38,7 +38,7 @@ The following scripts process raw data:
 - calc-slope.R: calculates 4km slope from a 3 arc second digital elevation model (DEM)
 - buffer-rural.R: subdivides rural areas based on proximity to urbanized areas and urban clusters
 
-## data
+## reduced_data
 
 Processed data for the US Pacific Coast region at 4 km spatial resolution (some processed data not included due to size): 
 
