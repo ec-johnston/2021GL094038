@@ -105,7 +105,7 @@ fit with data for the state of Washington
 - washington_monthly_eq1.rds: results of Eq. 1 using monthly antecedent precipitation intensity
 
 ## R Packages Used
-- tidyverse, raster, rgdal, zoo, ncdf4, lfe
+- tidyverse, raster, rgdal, zoo, ncdf4, data.table, lfe
 
 
 
