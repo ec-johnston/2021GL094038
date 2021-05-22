@@ -37,6 +37,7 @@ The following scripts process raw data:
 - calc-cumulative-precip.R: calculates up to thirty-day cumulative precipitation intensity from PRISM data
 - calc-slope.R: calculates 4km slope from a 3 arc second digital elevation model (DEM)
 - buffer-rural.R: subdivides rural areas based on proximity to urbanized areas and urban clusters
+- combine-variables.R: combines variables into a panel dataset 
 
 ## reduced_data
 
@@ -55,7 +56,7 @@ Processed data for the US Pacific Coast region at 4 km spatial resolution (some 
 
 Scripts for panel regression models:
 
-- panel_regression_models.R:
+- panel_regression_models.R: 
 - bootstrap_models.R: 
 
 ## results
