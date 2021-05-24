@@ -25,8 +25,8 @@ Raw datasets are available from the following locations:
 ## Organization of Repository
  
 - data_processing_scripts: code for processing raw data
-- data: post-processed data
-- analysis_scripts: code that analyzes data
+- reduced_data: post-processed data
+- analysis_scripts: code that analyzes reduced_data
 - results: output from analysis_scripts
 
 ## data_processing_scripts
@@ -56,7 +56,7 @@ Processed data for the US Pacific Coast region at 4 km spatial resolution (some 
 
 Scripts for panel regression models:
 
-- panel_regression_models.R: 
+- panel_regression_models.R: panel regression models defined by Eq. 1 - Eq. 4
 - bootstrap_models.R: 
 
 ## results
