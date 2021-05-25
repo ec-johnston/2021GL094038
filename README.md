@@ -44,7 +44,8 @@ The following scripts process raw data:
 Processed data for the US Pacific Coast region at 4 km spatial resolution (some processed data not included due to size): 
 
 - pacific_coast_df.rds: dataframe of x/y coordinates within the Pacific Coast region at 4km resolution 
-- pacific_coast.asc: raster layer of the Pacific Coast region at 4 km resolution 
+- pacific_coast.asc: raster layer of the Pacific Coast region at 4 km resolution
+- bay_area_df: dataframe of x/y coordinates within the San Francisco Bay Area (defined here to include coastal counties of Marin, San Francisco, San Mateo, and Santa Cruz)
 - daily_precip_2010_2017.rds: daily precipitation data from PRISM 
 - land_use.rds: land use designation into urbanized (>50,000 people), urban cluster (2,500 – 50,000 people), and rural (<2,500 people)  
 - land_use_subdiv.rds: land use classification with rural areas subdivided based on proximity to urban footprint
