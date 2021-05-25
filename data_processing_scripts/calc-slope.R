@@ -1,6 +1,6 @@
 library(raster)
 
-
+## THIS SCRIPT IS IN PREP 
 
 
 #load DEM raster data and merge to create map
