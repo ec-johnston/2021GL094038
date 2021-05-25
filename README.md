@@ -77,7 +77,7 @@ fit with data for the US Pacific Coast region
 - pacific_coast_daily_eq4.rds: results of Eq. 4 (which considers interactions with both mean precipitation and mean slope) using daily precipitation intensity
 
 ### bay_area
-fit with data for coastal counties within the San Francisco Bay Area (i.e., Marin, San Francisco, San Mateo, and Santa Cruz counties)
+fit with data for the San Francisco Bay Area
 - bay_area_daily_eq1.rds: results of Eq. 1 using daily precipitation intensity 
 - bay_area_ten_day_eq1.rds: results of Eq. 1 using ten-day antecedent precipitation intensity 
 - bay_area_monthly_eq1.rds: results of Eq. 1 using monthly antecedent precipitation intensity
