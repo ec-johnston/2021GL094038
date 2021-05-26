@@ -1,4 +1,4 @@
-## THE FOLLOWING SCRIPT IS MODIFIED FROM FRANCES DAVENPORT (see Davenport et al., 2019; 2021)
+## THIS SCRIPT IS MODIFIED FROM FRANCES DAVENPORT (see Davenport et al., 2019; 2021)
 
 library(dplyr); library(lfe);
 
