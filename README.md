@@ -1,4 +1,3 @@
-# GRL2021
 ## Supporting code for manuscript submitted to GRL (2021GL094038)
 ## "Quantifying the influence of precipitation intensity on landslide hazard in urbanized and non-urbanized areas"
 
