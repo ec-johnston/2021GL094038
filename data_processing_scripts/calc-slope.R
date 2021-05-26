@@ -9,7 +9,7 @@ library(raster)
 setwd("~/Downloads/K10")
 files <- list.files("~/Downloads/K10", pattern = "*.hgt")
 
-## for each files do action below
+## for each file do action below
 # J10 K10 L10 I10 J11 K11 L11 M10 M11
 raster <- Reduce(raster::merge, lapply(files, raster))
 
