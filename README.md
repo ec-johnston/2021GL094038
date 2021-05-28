@@ -35,7 +35,7 @@ The following scripts process raw data:
 
 - func.R: defines functions used throughout data processing and analysis
 - calc-cumulative-precip.R: calculates up to thirty-day cumulative precipitation intensity from PRISM data
-- calc-slope.R: calculates 4km slope from a 3 arc second digital elevation model (DEM)
+- calc-slope.R: calculates slope from a digital elevation model (DEM)
 - buffer-rural.R: subdivides rural areas based on proximity to urbanized areas and urban clusters
 - combine-variables.R: combines variables into a panel dataset 
 
@@ -45,7 +45,6 @@ Processed data for the US Pacific Coast region at 4 km spatial resolution (some 
 
 - pacific_coast_df.rds: dataframe of x/y coordinates within the Pacific Coast region at 4km resolution 
 - pacific_coast.asc: raster layer of the Pacific Coast region at 4 km resolution
-- bay_area_df: dataframe of x/y coordinates within the San Francisco Bay Area (defined here to include coastal counties of Marin, San Francisco, San Mateo, and Santa Cruz)
 - daily_precip_2010_2017.rds: daily precipitation data from PRISM 
 - land_use.rds: land use designation into urbanized (>50,000 people), urban cluster (2,500 – 50,000 people), and rural (<2,500 people)  
 - land_use_subdiv.rds: land use classification with rural areas subdivided based on proximity to urban footprint
