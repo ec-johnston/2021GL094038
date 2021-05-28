@@ -57,8 +57,8 @@ Processed data for the US Pacific Coast region at 4 km spatial resolution (some 
 
 Scripts for panel regression models:
 
-- panel_regression_models.R: panel regression models with grid cell and year fixed effects defined by Equations 1 - 4 in manuscript text
-- bootstrap_models.R: 
+- panel_regression_models.R: define panel regression models
+- bootstrap_models.R: bootstrap regression models
 
 ## results
 
