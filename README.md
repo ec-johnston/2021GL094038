@@ -34,10 +34,9 @@ Raw datasets are available from the following locations:
 The following scripts process raw data:
 
 - func.R: defines functions used throughout data processing and analysis
-- calc-cumulative-precip.R: calculates up to thirty-day cumulative precipitation intensity from PRISM data
+- calc-cumulative-precip.R: calculates up to thirty-day cumulative precipitation intensity 
 - calc-slope.R: calculates slope from a digital elevation model (DEM)
 - buffer-rural.R: subdivides rural areas based on proximity to urbanized areas and urban clusters
-- combine-variables.R: combines variables into a panel dataset 
 
 ## reduced_data
 
