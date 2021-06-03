@@ -25,9 +25,9 @@ Raw datasets are available from the following locations:
 ## Organization of Repository
  
 - data_processing_scripts: code for processing data
-- reduced_data: post-processed data
-- analysis_scripts: code that analyzes reduced_data
-- results: output from analysis_scripts
+- data: post-processed data
+- analysis_scripts: code for panel regression models
+- results: regression coefficients
 
 ## data_processing_scripts
 
