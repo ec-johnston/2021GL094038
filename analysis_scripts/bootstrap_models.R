@@ -40,14 +40,14 @@ N <- length(unique(data[,cluster_varname]))
 
 ## generate matrix of random numbers to resample with replacement
 set.seed(100*ARRAY_ID)
-site_sample_list <- lapply(1:NBOOT, function(x) sample(1:N, N, replace = TRUE))
+sample_list <- lapply(1:NBOOT, function(x) sample(1:N, N, replace = TRUE))
 
 ## create matrix to store results
 bootresults <- vector('list', length = NBOOT)
 
 for(i in 1:NBOOT){
     if(i%%10 == 0) print(i)
-    current_data <- do.call(bind_rows, data_split[site_sample_list[[i]]])
+    current_data <- do.call(bind_rows, data_split[sample_list[[i]]])
     current_model <- felm(formula(modform), data = current_data, nostats = TRUE)
     bootresults[[i]] <- coef(current_model)
 }
