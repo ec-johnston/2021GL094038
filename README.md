@@ -24,14 +24,14 @@ Raw datasets are available from the following locations:
 
 ## Organization of Repository
  
-- data_processing_scripts: code for processing raw data
+- data_processing_scripts: code for processing data
 - reduced_data: post-processed data
 - analysis_scripts: code that analyzes reduced_data
 - results: output from analysis_scripts
 
 ## data_processing_scripts
 
-The following scripts process raw data:
+The following scripts process data:
 
 - func.R: defines functions used throughout data processing and analysis
 - calc-cumulative-precip.R: calculates up to thirty-day cumulative precipitation intensity 
