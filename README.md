@@ -15,7 +15,7 @@ Elizabeth C. Johnston (1), Frances V. Davenport (1), Lijing Wang (2), Jef K. Cae
 
 Corresponding author: Elizabeth C. Johnston (ecj@stanford.edu)
 
-Raw datasets are available from the following locations: 
+**Raw datasets are available from the following locations:**
 
 - PRISM daily 4km precipitation: available from the PRISM Climate Group, Oregon State University (http://www.prism.oregonstate.edu)
 - Digital Elevation Model – with SRTM voids filled using accurate topographic mapping – is available from Jonathan de Ferranti (http://www.viewfinderpanoramas.org/dem3.html)
