@@ -1,25 +1,18 @@
 library(raster)
 
-#load DEM raster data and merge to create map
-#source of DEM: http://www.viewfinderpanoramas.org/
-
-list_dirs 
-for i in 
-
-files <- list.files("~/Downloads/K10", pattern = "*.hgt")
-raster <- Reduce(raster::merge, lapply(files, raster))
-## for each folder do action below
-# J10 K10 L10 I10 J11 K11 L11 M10 M11
+source("~./func.R")
 
 
-## DEM for the Pacific Coast region of the United States
-DEM <- merge(I10, J10, K10, L10, I11, J11, K11, L11, M10, M11)
+## Digital Elevation Model (with SRTM voids filled using accurate topographic mapping) 
+## available from Jonathan de Ferranti (http://www.viewfinderpanoramas.org/dem3.html)
 
-writeRaster(slope, filename = "slope.grd")
+## load DEMs and merge into single RasterLayer
+d <- list.dirs("~/Downloads/DEM", recursive = FALSE)
 
-slope <- raster("slope.grd")
+DEM <- Reduce(raster::merge, lapply(d, function(x) {
+  combine_rasters(d = x) }))
 
-## calculate slope from a DEM raster
+## calculate slope from DEM RasterLayer
 slope <- raster::terrain(DEM, opt = "slope", unit = "radians")
 
 #coarsen the resolution of the DEM 
@@ -31,6 +24,6 @@ slope_aggr$y <- pacific_coast_df$y
 slope_aggr <- slope_aggr[,2:4]
 
 
-
+writeRaster(slope_aggr, filename = "slope.grd")
 
 
