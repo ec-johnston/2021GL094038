@@ -23,20 +23,19 @@ Corresponding author: Elizabeth C. Johnston (ecj@stanford.edu)
 - The TIGER/Line shapefile of land use designations is available from the US Census (http://data.census.gov)
 
 ## Organization of Repository
- 
-- data_processing_scripts: code for processing data
+
 - data: post-processed data
-- analysis_scripts: code for panel regression models
+- scripts: code for data processing and analysis
 - results: regression coefficients
 
-## data_processing_scripts
-
-The following scripts process data:
+## scripts
 
 - func.R: defines functions used throughout data processing 
 - calc-cumulative-precip.R: calculates up to thirty-day cumulative precipitation intensity 
 - calc-slope.R: calculates slope from a digital elevation model (DEM)
 - buffer-rural.R: subdivides rural areas based on proximity to urbanized areas and urban clusters
+- panel_regression_models.R: defines panel regression models
+- bootstrap_models.R: bootstraps regression models
 
 ## data
 
@@ -49,14 +48,6 @@ Reduced data for the US Pacific Coast region at 4 km spatial resolution (regiona
 - land_use_subdiv.rds: land use classification with rural areas subdivided based on proximity to urban footprint
 - slope.rds: slope (in radians)
 - landslides_precip.rds: daily to monthly antecedent precipitation intensity preceding observed landslides
-
-
-## analysis_scripts
-
-Scripts for panel regression models:
-
-- panel_regression_models.R: defines panel regression models
-- bootstrap_models.R: bootstraps regression models
 
 ## results
 
