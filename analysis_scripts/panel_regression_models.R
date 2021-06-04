@@ -1,6 +1,6 @@
 library(lfe)
 
-## The following strings specify model formulas (modform) for bootstrap_models.R 
+## The following strings define panel regression model formulas (i.e., modform) used for bootstrap_models.R  
 
 ## EQUATION 1 (base model): panel regression with grid cell and year fixed effects
 eq_1 <- landslides ~ precip:land_use | year + grid_cell
