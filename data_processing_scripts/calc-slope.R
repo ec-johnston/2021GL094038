@@ -3,12 +3,14 @@ library(raster)
 #load DEM raster data and merge to create map
 #source of DEM: http://www.viewfinderpanoramas.org/
 
-setwd("~/Downloads/K10")
-files <- list.files("~/Downloads/K10", pattern = "*.hgt")
+list_dirs 
+for i in 
 
+files <- list.files("~/Downloads/K10", pattern = "*.hgt")
+raster <- Reduce(raster::merge, lapply(files, raster))
 ## for each folder do action below
 # J10 K10 L10 I10 J11 K11 L11 M10 M11
-raster <- Reduce(raster::merge, lapply(files, raster))
+
 
 ## DEM for the Pacific Coast region of the United States
 DEM <- merge(I10, J10, K10, L10, I11, J11, K11, L11, M10, M11)
