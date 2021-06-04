@@ -34,8 +34,8 @@ Corresponding author: Elizabeth C. Johnston (ecj@stanford.edu)
 - calc-cumulative-precip.R: calculates up to thirty-day cumulative precipitation intensity 
 - calc-slope.R: calculates slope from a digital elevation model (DEM)
 - buffer-rural.R: subdivides rural areas based on proximity to urbanized areas and urban clusters
-- panel_regression_models.R: defines panel regression models
-- bootstrap_models.R: bootstraps regression models
+- panel-regression_models.R: defines panel regression models
+- bootstrap-models.R: bootstraps regression models
 
 ## data
 
