@@ -55,7 +55,7 @@ Reduced data for the US Pacific Coast region at 4 km spatial resolution (regiona
 
 Scripts for panel regression models:
 
-- panel_regression_models.R: define panel regression models
+- panel_regression_models.R: defines panel regression models
 - bootstrap_models.R: bootstrap regression models
 
 ## results
