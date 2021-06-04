@@ -1,13 +1,14 @@
 ## THIS SCRIPT IS MODIFIED FROM FRANCES DAVENPORT (see Davenport et al., 2019; 2021)
 
-library(dplyr); library(lfe);
-
 ## THIS SCRIPT IS WRITTEN FOR GENERAL BOOTSTRAPPING OF A FIXED EFFECTS LINEAR MODEL
 ## USING FELM
 ## ALL DATA-WRANGLING MUST TAKE PLACE BEFOREHAND
 
+library(dplyr)
+library(lfe)
+
 ## -----------------------------------------------------------------------------
-## read in arguments from Sherlock script
+## read in arguments from sbatch script
 args <- commandArgs(trailingOnly = TRUE)
 ARRAY_ID <- as.numeric(args[1]) ## job number within array - used to set seed and in outfile name
 NBOOT <- as.numeric(args[2]) ## number of bootstraps for each job
@@ -45,6 +46,7 @@ sample_list <- lapply(1:NBOOT, function(x) sample(1:N, N, replace = TRUE))
 ## create matrix to store results
 bootresults <- vector('list', length = NBOOT)
 
+## bootstrap model
 for(i in 1:NBOOT){
     if(i%%10 == 0) print(i)
     current_data <- do.call(bind_rows, data_split[sample_list[[i]]])
