@@ -53,24 +53,5 @@ calculate_cumulative_precip <- function(i) {
 }
 
 
-## calc_antecedent_precip calculates precipitation preceding observed landslides 
-## the function extracts precipitation amounts from a precip_df, 
-## a dataframe of precipitation values, where the column names are date and rows represent lat/long values
-## dates should be in character to format 
-
-## QUANTIFY CUMULATIVE ANTECENT PRECIPITATION INTENSITY AT LANDSLIDES
-calc_antecedent_precip <- function(precip_df) {
-  ## INPUTS:
-  ## precip_df = 
-  ## RETURNS: 
-  date_all <- precip_df[, date]
-  date_all$x <- pacific_coast_df$x
-  date_all$y <- pacific_coast_df$y
-  date_all_xy <- right_join(date_all, inventory_xy_match, by = c("x", "y"))
-  date_no_xy <- as.matrix(date_all_xy[,1:720])
-  landslide_precip <- diag(date_no_xy)
-  return(landslide_precip) 
-}
-
 
 
