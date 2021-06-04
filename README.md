@@ -33,7 +33,7 @@ Corresponding author: Elizabeth C. Johnston (ecj@stanford.edu)
 
 The following scripts process data:
 
-- func.R: defines functions used throughout data processing and analysis
+- func.R: defines functions used throughout data processing 
 - calc-cumulative-precip.R: calculates up to thirty-day cumulative precipitation intensity 
 - calc-slope.R: calculates slope from a digital elevation model (DEM)
 - buffer-rural.R: subdivides rural areas based on proximity to urbanized areas and urban clusters
