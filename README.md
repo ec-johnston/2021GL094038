@@ -40,7 +40,7 @@ The following scripts process data:
 
 ## data
 
-Reduced data for the US Pacific Coast region at 4 km spatial resolution (regional precipitation data not included due to size): 
+Reduced data for the US Pacific Coast region at 4 km spatial resolution (regional daily-scale precipitation data not included due to size): 
 
 - pacific_coast_df.rds: dataframe of x/y coordinates within the Pacific Coast region at 4km resolution 
 - pacific_coast.asc: raster layer of the Pacific Coast region at 4 km resolution
