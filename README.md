@@ -17,7 +17,7 @@ Corresponding author: Elizabeth C. Johnston (ecj@stanford.edu)
 
 **Raw datasets are available from the following locations:**
 
-- PRISM daily 4km precipitation: available from the PRISM Climate Group, Oregon State University (http://www.prism.oregonstate.edu)
+- PRISM daily 4 km precipitation: available from the PRISM Climate Group, Oregon State University (http://www.prism.oregonstate.edu)
 - Digital Elevation Model – with SRTM voids filled using accurate topographic mapping – is available from Jonathan de Ferranti (http://www.viewfinderpanoramas.org/dem3.html)
 - The Cooperative Open Online Landslide Repository is available from NASA (https://landslides.nasa.gov)
 - The TIGER/Line shapefile of land use designations is available from the US Census (http://data.census.gov)
