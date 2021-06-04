@@ -36,7 +36,7 @@ data <- readRDS(datafile)
 ## split into list of dataframes (one for each grid cell)
 data_split <- split(data, f = data[,cluster_varname])
 
-## number of clusters to sample (i.e., original number of grid cells in dataset)
+## number of grid cells to sample
 N <- length(unique(data[,cluster_varname]))
 
 ## generate matrix of random numbers to resample with replacement
