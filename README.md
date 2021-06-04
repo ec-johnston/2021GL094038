@@ -42,7 +42,7 @@ The following scripts process data:
 
 Reduced data for the US Pacific Coast region at 4 km spatial resolution (regional daily-scale precipitation data not included due to size): 
 
-- pacific_coast_df.rds: dataframe of x/y coordinates within the Pacific Coast region at 4km resolution 
+- pacific_coast_df.rds: dataframe of x/y coordinates within the Pacific Coast region at 4 km resolution 
 - pacific_coast.asc: raster layer of the Pacific Coast region at 4 km resolution
 - bay_area_df.rds: dataframe of x/y coordinates of coastal San Francisco counties of Marin, San Francisco, San Mateo, and Santa Cruz counties
 - land_use.rds: land use designation into urbanized (>50,000 people), urban cluster (2,500 – 50,000 people), and rural (<2,500 people)  
