@@ -13,3 +13,5 @@ eq_3 <- landslides ~ precip:land_use + precip:slope:land_use | year + grid_cell
 
 ## EQUATION 4: includes interactions with mean precipitation and mean slope in the same equation 
 eq_4 <- landslides ~ precip:land_use + precip:mean_precip:land_use + precip:slope:land_use | year + grid_cell
+
+
