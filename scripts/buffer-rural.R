@@ -2,12 +2,12 @@ library(rgdal)
 library(raster)
 library(tidyverse)
 
-source("~./func.R")
+source("~/landslides-precip/scripts/func.R")
 
 ## read in raster and dataframe of the study area (in this case, the Pacific Coast region of the coterminous US)
-pacific_coast <- raster("pacific_coast.asc")
-pacific_coast_df <- readRDS("pacific_coast_df.rds")
-land_use <- readRDS("land_use.rds")
+pacific_coast <- raster("~/landslides-precip/data/pacific_coast.asc")
+pacific_coast_df <- readRDS("~/landslides-precip/data/pacific_coast_df.rds")
+land_use <- readRDS("~/landslides-precip/data/land_use.rds")
 
 ## The TIGER/Line shapefile of land use designations is available from the US Census (http://data.census.gov)
 ## Read in the latest TIGER/Line shapefile for the US as a SpatialPolygonsDataFrame
