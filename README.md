@@ -47,6 +47,7 @@ Reduced data for the US Pacific Coast region at 4 km spatial resolution (regiona
 - land_use.rds: land use designation into urbanized (>50,000 people), urban cluster (2,500 – 50,000 people), and rural (<2,500 people)  
 - land_use_subdiv.rds: land use classification with rural areas subdivided based on proximity to urban footprint
 - slope.rds: slope (in radians)
+- landslides.rds: !!!!
 - landslides_precip.rds: daily to monthly antecedent precipitation intensity preceding observed landslides
 
 ## results
