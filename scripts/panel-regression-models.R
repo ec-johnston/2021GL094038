@@ -1,4 +1,5 @@
 library(lfe)
+library(fixest)
 
 ## The following strings define panel regression model formulas (i.e., modform) used for bootstrap_models.R  
 
