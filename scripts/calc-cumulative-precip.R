@@ -6,7 +6,7 @@ library(data.table)
 
 ## daily 4 km precipitation data for the US is available from the PRISM Climate Group
 ## https://prism.oregonstate.edu 
-source("~./func.R")
+source("~/ec-johnston/landslides-precip/func.R")
 setwd("~/Downloads/PRISM")
 
 ## list NetCDF files in folder containing raw daily precipitation data (in this case from PRISM)
