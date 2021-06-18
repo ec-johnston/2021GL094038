@@ -17,12 +17,12 @@ files = list.files("~/Downloads/PRISM", pattern = "*.nc")
 daily_precip_2009_2017 <- lapply(files, function(x) {
   extract_precip(filename = x, extent_raster = pacific_coast, extent_df = pacific_coast_df) } )
 
-daily_precip_2009_2017 <- as.data.frame(daily_precip_2010_2017)
+daily_precip_2009_2017 <- as.data.frame(daily_precip_2009_2017)
 
-dates_2009_to_2017 <- seq(from = as.Date("2010/1/1"), to = as.Date("2017/12/31"), by = "day")
+dates_2009_to_2017 <- seq(from = as.Date("2009/1/1"), to = as.Date("2017/12/31"), by = "day")
 dates_2009_to_2017 <- as.character(dates_2010_to_2017)
 
-daily_precip_2009_2017 <- data.table::setnames(daily_precip_2010_2017, dates_2010_to_2017)
+daily_precip_2009_2017 <- data.table::setnames(daily_precip_2009_2017, dates_2009_to_2017)
 daily_precip_2009_2017$x <- pacific_coast_df$x
 daily_precip_2009_2017$y <- pacific_coast_df$y
 
