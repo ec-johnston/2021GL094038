@@ -17,10 +17,12 @@ Corresponding author: Elizabeth C. Johnston (ecj@stanford.edu)
 
 **Raw datasets are available from the following locations:**
 
-- PRISM daily 4 km precipitation: available from the PRISM Climate Group, Oregon State University (http://www.prism.oregonstate.edu)
-- Digital Elevation Model – with SRTM voids filled using accurate topographic mapping – is available from Jonathan de Ferranti (http://www.viewfinderpanoramas.org/dem3.html)
-- The Cooperative Open Online Landslide Repository is available from NASA (https://landslides.nasa.gov)
-- The TIGER/Line shapefile of land use designations is available from the US Census (http://data.census.gov)
+- The Cooperative Open Online Landslide Repository is available from NASA (https://maps.nccs.nasa.gov/arcgis/apps/MapAndAppGallery/index.html?appid=574f26408683485799d02e857e5d9521)
+- PRISM daily 4 km precipitation is available from the PRISM Climate Group, Oregon State University (http://www.prism.oregonstate.edu/recent)
+- The TIGER/Line shapefile of land use designations is available from the US Census (https://catalog.data.gov/dataset/tiger-line-shapefile-2019-2010-nation-u-s-2010-census-urban-area-national)
+- Digital Elevation Model – with SRTM voids filled using accurate topographic mapping – is available at 3 arc second resolution from Jonathan de Ferranti (http://viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org3.htm). 
+
+
 
 ## Organization of Repository
 
