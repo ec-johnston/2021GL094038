@@ -8,8 +8,8 @@
 #SBATCH --ntasks=1
 #SBATCH --mem-per-cpu=150GB
 #SBATCH --mail-type=END,FAIL 
-#SBATCH --mail-user=ecj@stanford.edu
-#SBATCH -p diffenbaugh
+#SBATCH --mail-user=
+#SBATCH -p xxxxxxxxx
 
 module load R
 ml load physics geos
