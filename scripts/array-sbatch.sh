@@ -19,4 +19,4 @@ ml load udunits
 
 cd /oak/stanford/groups/omramom/group_members/ecj/landslide_felm_PRISM/felm_01d/pacificCoast_states/main/
 ## arguements for bootstrapping are: ARRAY_ID NBOOT modname modform datafile cluster_varname
-Rscript ./felm_model_bootstrapping.R $SLURM_ARRAY_TASK_ID 5 felm "landslideDensity ~ rainfall_1d:urbanArea_type | year + ID" "./dataframe_01d.rds" ID 
+Rscript ./bootstrap-models.R $SLURM_ARRAY_TASK_ID 5 felm "landslideDensity ~ rainfall_1d:urbanArea_type | year + ID" "./dataframe_01d.rds" ID 
