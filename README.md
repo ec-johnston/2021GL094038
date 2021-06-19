@@ -1,5 +1,5 @@
 ## Supporting code for manuscript submitted to GRL (2021GL094038)
-## "Quantifying the sensitivity of landslide hazard to precipitation intensity in urbanized and non-urbanized areas"
+## "Quantifying the effect of precipitation intensity on landslide hazard in urbanized and non-urbanized areas"
 
 Elizabeth C. Johnston (1), Frances V. Davenport (1), Lijing Wang (2), Jef K. Caers (2,3), Suresh Muthukrishnan (4,5), Marshall Burke (1,6,7) and Noah S. Diffenbaugh (1,8)
 
