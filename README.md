@@ -1,7 +1,7 @@
 ## Supporting code for manuscript submitted to GRL (2021GL094038)
 ## "Quantifying the effect of precipitation intensity on landslide hazard in urbanized and non-urbanized areas"
 
-Elizabeth C. Johnston (1), Frances V. Davenport (1), Lijing Wang (2), Jef K. Caers (2,3), Suresh Muthukrishnan (4,5), Marshall Burke (1,6,7) and Noah S. Diffenbaugh (1,8)
+Elizabeth Johnston (1), Frances Davenport (1), Lijing Wang (2), Jef Caers (2,3), Suresh Muthukrishnan (4,5), Marshall Burke (1,6,7) and Noah Diffenbaugh (1,8)
 
 1. Department of Earth System Science, Stanford University, Stanford, CA 94305
 2. Department of Geological Sciences, Stanford University, Stanford, CA 94305
