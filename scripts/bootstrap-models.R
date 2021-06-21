@@ -1,5 +1,6 @@
-## THIS SCRIPT IS MODIFIED FROM FRANCES DAVENPORT 
+## THIS SCRIPT IS MODIFIED FROM FRANCES DAVENPORT (Davenport et al. 2019, 2021)
 ## see: https://github.com/fdavenport/DBD2021/analysis_scripts/model-bootstrapping.R
+## see: https://github.com/fdavenport/WRR2019/analysis_scripts/panel-regression-bootstrapping.R
 
 
 ## THIS SCRIPT IS WRITTEN FOR GENERAL BOOTSTRAPPING OF A FIXED EFFECTS LINEAR MODEL
