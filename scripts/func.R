@@ -44,7 +44,7 @@ extract_precip <- function(files, extent_raster, extent_df) {
 }
 
 
-## CALCULATE REGIONAL DAILY-SCALE CUMULATIVE ANTECEDENT PRECIPITATION
+## CALCULATE PRECIPITATION ACCUMULATION
 ## (in this case for the Pacific Coast region between 2010 and 2017)
 calculate_cumulative_precip <- function(i) {
   ## INPUTS: 
