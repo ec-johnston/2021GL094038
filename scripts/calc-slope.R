@@ -4,7 +4,8 @@ source("~/ec-johnston/landslides-precip/func.R")
 
 
 ## Digital Elevation Model (with SRTM voids filled using accurate topographic mapping) 
-## available from Jonathan de Ferranti (http://www.viewfinderpanoramas.org/dem3.html)
+## available from Jonathan de Ferranti 
+## (http://viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org3.htm).
 
 ## load DEMs and merge into single RasterLayer
 d <- list.dirs("~/Downloads/DEM", recursive = FALSE)
