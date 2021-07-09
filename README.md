@@ -56,48 +56,6 @@ Reduced data for the US Pacific Coast region at 4 km spatial resolution (regiona
 
 Bootstrapped coefficients from panel regression models
 
-### pacific_coast
-fit with data for the US Pacific Coast region 
-- pacific_coast_daily_eq1.rds: results of Eq. 1 using daily precipitation intensity 
-- pacific_coast_ten_day_eq1.rds: results of Eq. 1 using ten-day antecedent precipitation intensity 
-- pacific_coast_monthly_eq1.rds: results of Eq. 1 using monthly antecedent precipitation intensity
-- pacific_coast_daily_eq1_rural_subdiv.rds: results of Eq. 1 using daily precipitation intensity with rural areas subdivided based on proximity to the urban footprint
-- pacific_coast_ten_day_eq1_rural_subdiv.rds: results of Eq. 1 using ten-day antecedent precipitation intensity with rural areas subdivided based on proximity to the urban footprint
-- pacific_coast_monthly_eq1_rural_subdiv.rds: results of Eq. 1 using monthly antecedent precipitation intensity with rural areas subdivided based on proximity to the urban footprint
-- pacific_coast_daily_eq2.rds: results of Eq. 2 (which considers an interaction with mean precipitation intensity) using daily precipitation intensity
-- pacific_coast_daily_eq3.rds: results of Eq. 3 (which considers an interaction with mean slope) using daily precipitation intensity
-- pacific_coast_daily_eq4.rds: results of Eq. 4 (which considers interactions with both mean precipitation and mean slope) using daily precipitation intensity
-
-### bay_area
-fit with data for the San Francisco Bay Area
-- bay_area_daily_eq1.rds: results of Eq. 1 using daily precipitation intensity 
-- bay_area_ten_day_eq1.rds: results of Eq. 1 using ten-day antecedent precipitation intensity 
-- bay_area_monthly_eq1.rds: results of Eq. 1 using monthly antecedent precipitation intensity
-- bay_area_daily_eq2.rds: results of Eq. 2 (which considers an interaction with mean precipitation intensity) using daily precipitation intensity
-- bay_area_daily_eq3.rds: results of Eq. 3 (which considers an interaction with mean slope) using daily precipitation intensity
-- bay_area_daily_eq4.rds: results of Eq. 4 (which considers interactions with both mean precipitation and mean slope) using daily precipitation intensity
-
-### california
-fit with data for the state of California
-- california_daily_eq1.rds: results of Eq. 1 using daily precipitation intensity 
-- california_ten_day_eq1.rds: results of Eq. 1 using ten-day antecedent precipitation intensity 
-- california_monthly_eq1.rds: results of Eq. 1 using monthly antecedent precipitation intensity
-- california_daily_eq2.rds: results of Eq. 2 (which considers an interaction with mean precipitation intensity) using daily precipitation intensity
-- california_daily_eq3.rds: results of Eq. 3 (which considers an interaction with mean slope) using daily precipitation intensity
-- california_daily_eq4.rds: results of Eq. 4 (which considers interactions with both mean precipitation and mean slope) using daily precipitation intensity
-
-### oregon
-fit with data for the state of Oregon
-- oregon_daily_eq1.rds: results of Eq. 1 using daily precipitation intensity 
-- oregon_ten_day_eq1.rds: results of Eq. 1 using ten-day antecedent precipitation intensity 
-- oregon_monthly_eq1.rds: results of Eq. 1 using monthly antecedent precipitation intensity
-
-### washington
-fit with data for the state of Washington
-- washington_daily_eq1.rds: results of Eq. 1 using daily precipitation intensity 
-- washington_ten_day_eq1.rds: results of Eq. 1 using ten-day antecedent precipitation intensity 
-- washington_monthly_eq1.rds: results of Eq. 1 using monthly antecedent precipitation intensity
-
 ## R Packages Used
 - tidyverse, raster, rgdal, zoo, ncdf4, data.table, lfe
 
