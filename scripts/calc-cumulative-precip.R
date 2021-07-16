@@ -26,21 +26,20 @@ daily_precip_2009_2017 <- data.table::setnames(daily_precip_2009_2017, dates_200
 daily_precip_2009_2017$x <- pacific_coast_df$x
 daily_precip_2009_2017$y <- pacific_coast_df$y
 
-## make a list of antecedent precipitation days 
-antecedent_days <- c(3, 5, 7, 10, 15, 20, 30)
+## make a list of periods (i.e., durations) of antecedent precipitation accumulation
+antecedent_days <- c(10, 30)
 
 ## calculate cumulative antecedent precipitation
 cumulative_precip <- lapply(days, function(x) {
   calculate_cumulative_precip(i = x) } )
 
 cumulative_precip_df <- as.data.frame(t(do.call(rbind, cumulative_precip)))
-names(cumulative_precip_df) <- c("precip_3d", "precip_5d", "precip_7d", "precip_10d", 
-                                  "precip_15d", "precip_20d", "precip_30d")
+names(cumulative_precip_df) <- c("precip_10d", "precip_30d")
 
 
 precip_1d <- as.data.frame(daily_precip_2010_2017 %>%
                                   tidyr::gather(key = date, value = precip_1d, -x , -y))
 
-cumulative_precip_df <- cbind(precip_1d, cumulative_precip_df)
+precip_df <- cbind(precip_1d, cumulative_precip_df)
 
 
