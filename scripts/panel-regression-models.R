@@ -21,6 +21,3 @@ eq_4 <- landslides ~ precip:land_use + precip:mean_precip:land_use + precip:slop
 
 ## EQUATION 5: tests the log-linear functional form of our main model
 eq_5 <- log(landslides) ~ precip:land_use | year + grid_cell
-
-## EQUATION 6: models the effect of rooting depth on the sensitivity of landslide hazard to precipitation
-eq_6 <- landslides ~ precip:rooting_depth | year + grid_cell
