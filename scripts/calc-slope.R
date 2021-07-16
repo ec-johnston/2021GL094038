@@ -1,6 +1,6 @@
 library(raster)
 
-source("~/ec-johnston/landslides-precip/func.R")
+source("./func.R")
 
 
 ## Digital Elevation Model (with SRTM voids filled using accurate topographic mapping) 
