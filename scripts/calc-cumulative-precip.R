@@ -29,8 +29,8 @@ daily_precip_2009_2017$y <- pacific_coast_df$y
 ## make a list of periods (i.e., durations) of antecedent precipitation accumulation
 antecedent_days <- c(10, 30)
 
-## calculate cumulative antecedent precipitation
-cumulative_precip <- lapply(days, function(x) {
+## calculate precipitation accumulation periods
+cumulative_precip <- lapply(antecedent_days, function(x) {
   calculate_cumulative_precip(i = x) } )
 
 cumulative_precip_df <- as.data.frame(t(do.call(rbind, cumulative_precip)))
