@@ -33,7 +33,7 @@ Corresponding author: Elizabeth C. Johnston (ecj@stanford.edu)
 ## scripts
 
 - func.R: defines functions used throughout data processing 
-- calc-cumulative-precip.R: calculates up to thirty-day precipitation accumulation
+- calc-cumulative-precip.R: ten-day and thirty-day precipitation accumulation
 - calc-slope.R: calculates slope from a digital elevation model (DEM)
 - buffer-rural.R: subdivides rural areas based on proximity to urbanized areas and urban clusters
 - panel-regression-models.R: defines panel regression models
@@ -50,7 +50,7 @@ Reduced data for the US Pacific Coast region at 4 km spatial resolution (regiona
 - land_use_subdiv.rds: land use classification with rural areas subdivided based on proximity to urban footprint
 - slope.rds: slope (in radians)
 - landslides.rds: all precipitation-triggered landslides w/in region reported by COOLR
-- landslides_precip.rds: daily to monthly antecedent precipitation intensity preceding observed landslides
+- landslides_precip.rds: one-day, ten-day, and thirty-day precipitation accumulation preceding observed landslides
 
 ## results
 
