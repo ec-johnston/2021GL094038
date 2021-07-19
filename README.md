@@ -33,7 +33,7 @@ Corresponding author: Elizabeth C. Johnston (ecj@stanford.edu)
 ## scripts
 
 - func.R: defines functions used throughout data processing 
-- calc-cumulative-precip.R: ten-day and thirty-day precipitation accumulation
+- calc-cumulative-precip.R: calculates ten-day and thirty-day precipitation accumulation
 - calc-slope.R: calculates slope from a digital elevation model (DEM)
 - buffer-rural.R: subdivides rural areas based on proximity to urbanized areas and urban clusters
 - panel-regression-models.R: defines panel regression models
