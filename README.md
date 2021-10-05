@@ -1,5 +1,4 @@
-## Supporting code for 2021GL094038 (https://doi.org/10.1029/2021GL094038)
-## "Quantifying the effect of precipitation on landslide hazard in urbanized and non-urbanized areas"
+## Supporting code for "Quantifying the effect of precipitation on landslide hazard in urbanized and non-urbanized areas" (https://doi.org/10.1029/2021GL094038)
 
 Elizabeth Johnston (1), Frances Davenport (1), Lijing Wang (2), Jef Caers (2,3), Suresh Muthukrishnan (4,5), Marshall Burke (1,6,7) and Noah Diffenbaugh (1,8)
 
